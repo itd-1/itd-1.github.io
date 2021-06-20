@@ -314,6 +314,9 @@
     .icon{
         margin-right: 40px;
     }
+    .icon:last-child{
+        margin-right: 0;
+    }
     .portfolio{
         margin-bottom: 80px;
     }
@@ -321,5 +324,8 @@
 @media (max-width: 270px){
     .icon{
         margin-right: 15px;
+    }
+    .icon:last-child{
+        margin-right: 0;
     }
 }
