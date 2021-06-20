@@ -249,15 +249,17 @@
 .footer__icon{
     display: flex;
     justify-content: space-around;
-    margin-right: 20px;
     width: 50%;
     margin-bottom: 30px;
 }
-.footer__icon:last-child{
-    margin-right: 0;
-}
 .subtext{
     max-width: 315px;
+}
+.icon{
+    margin-right: 20px;
+}
+.icon:last-child{
+    margin-right: 0;
 }
 
 /* Footer end */
@@ -309,15 +311,15 @@
     .footer__button{
         padding: 8% 30% 8%;
     }
-    .footer__icon{
-        gap: 40px;
+    .icon{
+        margin-right: 40px;
     }
     .portfolio{
         margin-bottom: 80px;
     }
 }
 @media (max-width: 270px){
-    .footer__icon{
+    .icon{
         margin-right: 15px;
     }
 }
