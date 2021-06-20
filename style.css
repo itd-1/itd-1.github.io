@@ -249,9 +249,12 @@
 .footer__icon{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    margin-right: 20px;
     width: 50%;
     margin-bottom: 30px;
+}
+.footer__icon:last-child{
+    margin-right: 0;
 }
 .subtext{
     max-width: 315px;
@@ -315,6 +318,6 @@
 }
 @media (max-width: 270px){
     .footer__icon{
-        gap: 25px;
+        margin-right: 15px;
     }
 }
