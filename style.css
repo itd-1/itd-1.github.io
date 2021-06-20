@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 0 15px;
+    max-width: 976px;
+    margin: 0 auto;
+    width: 100%;
+}
+.wrapper__gray__about__me{
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header starts */ 
+/*
+.burger{
+    height: 80px;
+    width: 80px;
+    background: url("hamburger.png") center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.burger__active{
+    background: url("hamburger__close.png") center no-repeat;
+    background-size: contain;
+}
+*/
+
+.header{
+    margin-top: 33px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav__link:hover{
+    color: black;
+}
+.intro__right__right{
+    color: black;
+    font-weight: 700;
+}
+/* Header end */
+
+/* Intro starts */
+
+.intro{
+    margin: 128px 0 105px;
+    width: 100%;
+    height: max-content;
+}
+.intro__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    border-top: 2px solid #828282;
+}
+.intro__right{
+    transform: translate(10px, -25px);
+}
+.pic__intro{
+    display: block;
+    max-width: 100%;
+}
+.pic__intro__2{
+    max-width: 316px;
+    display: none;
+    max-height: 478px;
+}
+.text__left{
+    max-width: 123px;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.text__middle{
+    max-width: 155px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text__right{
+    transform: rotate(-90deg);
+}
+
+/* Intro end */
+
+/* About me starts */
+.about__me__section{
+    margin-bottom: 91px;
+}
+.about__me__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about__me__text{
+    display: flex;
+    align-items: center;
+    max-width: 420px;
+    flex-direction: column;
+}
+.title{
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+}
+.about__me__title{
+    margin-top: 120px;
+    margin-bottom: 35px;
+}
+.text__about__me{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.text__about__me:last-child{
+    margin-bottom: 118px;
+    max-width: 300px;
+}
+
+/* About me end */
+
+/* Skills starts */
+
+.skills{
+    text-align: center;
+}
+.skills__title{
+    margin-bottom: 69px;
+}
+.skills__inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills__text{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 90px;
+}
+.skills__programms{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 110px;
+    gap: 30px;
+}
+.programm__item{
+    margin-bottom: 22px;
+}
+.programm__text{
+    margin-bottom: 30px;
+}
+.skills__programm__item{
+    margin-bottom: 25px;
+}
+
+/* Skills end */
+
+/* Portfolio starts */
+
+.portfolio__inner{
+    margin-top: 113px;
+    text-align: center;
+}
+.portfolio{
+    margin-bottom: 114px;
+}
+.portfolio__title{
+    margin-bottom: 64px;
+}
+.portfolio__pic__contain{
+    max-width: 100%;
+}
+.portfolio__pic{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 46px;
+}
+.portfolio__text{
+    font-size: 18px;
+    color: black;
+}
+.portfolio__item{
+    margin-bottom: 80px;
+}
+
+
+/* Portfolio end */
+
+/* Footer starts */
+
+.footer{
+    margin-bottom: 30px;
+}
+.footer__inner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__title__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 86px;
+}
+.footer__title{
+    margin-bottom: 37px;
+}
+.footer__text{
+    max-width: 275px;
+    margin-bottom: 30px;
+}
+.footer__button{
+    color: white;
+    font-size: 18px;
+    padding: 10% 20% 10%;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.footer__button:hover{
+    background-color: rgb(22, 160, 165);
+    color: black;
+}
+.footer__icon{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.subtext{
+    max-width: 315px;
+}
+
+/* Footer end */
+@media (max-width: 450px){
+    .intro{
+        margin-top: 70px;
+    }
+    .header{
+        display: none;
+    }
+    .wrapper{
+        padding: 0 15px;
+        max-width: 317px;
+    }
+    .intro__wrapper{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .intro__left{
+        margin-bottom: 10px;
+    }
+    .intro__right{
+        display: none;
+    }
+    .pic__intro{
+        display: none;
+    }
+    .intro__wrapper{
+        border: none;
+    }
+    .pic__intro__2{
+        max-width: 100%;
+        display: block;
+    }
+    .intro__pic{
+        display: flex;
+        justify-content: center;
+    }
+    .text__about__me{
+        max-width: 315px;
+    }
+    .portfolio__pic__contain{
+        max-width: 317px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .footer__button{
+        padding: 8% 30% 8%;
+    }
+    .footer__icon{
+        gap: 40px;
+    }
+    .portfolio{
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 270px){
+    .footer__icon{
+        gap: 25px;
+    }
+}
